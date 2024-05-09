@@ -1,0 +1,28 @@
+<div class="calculator">
+  <input type="text" readonly [(ngModel)]="input">
+
+  <div class="row">
+    <button (click)="onPress('1')">1</button>
+    <button (click)="onPress('2')">2</button>
+    <button (click)="onPress('3')">3</button>
+    <button (click)="onPress('+')">+</button>
+  </div>
+  <div class="row">
+    <button (click)="onPress('4')">4</button>
+    <button (click)="onPress('5')">5</button>
+    <button (click)="onPress('6')">6</button>
+    <button (click)="onPress('-')">-</button>
+  </div>
+  <div class="row">
+    <button (click)="onPress('7')">7</button>
+    <button (click)="onPress('8')">8</button>
+    <button (click)="onPress('9')">9</button>
+    <button (click)="onPress('*')">*</button>
+  </div>
+  <div class="row">
+    <button (click)="onPress('C')">C</button>
+    <button (click)="onPress('0')">0</button>
+    <button (click)="onPress('=')">=</button>
+    <button (click)="onPress('/')">/</button>
+  </div>
+</div>
